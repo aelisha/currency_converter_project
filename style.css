@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: rgb(158, 0, 158); */
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-color: bisque;
+}
+.container{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+}
+form{
+    margin: 25px 0 15px 0;
+}
+form select, button, input{
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+form input{
+    border: 1px solid rgb(158, 0, 158);
+    font-size: 15px;
+    height: 35px;
+    padding-left: 15px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+.dropdown i{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.select-container img{
+    max-width: 35px;
+}
+.select-container{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    border-radius: 10px;
+    border: 1px solid  rgb(158, 0, 158);
+}
+
+.select-container select{
+    font-size: 15px;
+    width: auto;
+}
+.msg{
+    margin: 25px 0 15px 0;
+
+}
+form button{
+    height: 45px;
+    background-color: rgb(158, 0, 158);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
